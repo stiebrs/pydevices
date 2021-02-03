@@ -13,3 +13,8 @@ Python drivers for various devices. Implemented only as much as I have had a nee
 - interface: different interfacing devices
   - gpib:
     - Prologix USB-GPIB interface
+
+Testing:
+```sh
+python -m instrument.dmm.keythley2000.test.test
+```
